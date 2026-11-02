@@ -6,8 +6,8 @@
        soma = soma + numeros[i];
        System.out.println("a soma é: " + soma);
 }*/
-public static void main(String[] args) {
-    //Encontrar o maior numero
+/*public static void main(String[] args) {
+    //Encontrar o maior numero com array
     int[] numeros = {12, 45, 7, 89, 23};
     int maiorN = numeros[0];
     for (int i=0; i<numeros.length; i++) {
@@ -16,4 +16,20 @@ public static void main(String[] args) {
         }
     }
     System.out.println("Maior numero é: " + maiorN);
+}*/
+
+//estrutura de dados utilizando Matriz
+public static void main(String[] args) {
+    //como declarar uma Matriz em Java?
+    int[] [] matriz = {
+            {10, 20, 30},
+            {40, 50, 60},
+            {70, 80, 90}
+    };
+    /**
+     * Observe que utilizamos dois pares de colchetes [][].
+     * - Primeiro índice: representa a linha.
+     * - Segundo índice: representa a coluna.
+     */
+    System.out.println(matriz[1][2]);
 }
