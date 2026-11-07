@@ -64,6 +64,30 @@
 
 }*/
 
-public static void main(String[] args) {
+/*public static void main(String[] args) {
+    int [] [] numeros = {
+            {10,10,10,10,10}, //resultado esperado para essa linha 50
+            {20,20,20,20,20}  //resultado esperado para essa linha 100
+    };
+    for (int i=0; i<numeros.length; i++) {
+        int soma = 0;
+        for (int j=0; j<numeros[i].length; j++) {
+            soma = soma + numeros[i][j];
+        }
+        System.out.println("Resultado é: " + soma);
+    }
+}*/
 
+public  static void main(String[] args) {
+    int[][] numeros = {
+            {5, 10, 15},
+            {20, 25, 30}
+    };
+    for (int i=0; i<numeros[0  ].length; i++) {
+        int soma = 0;
+        for (int j=0; j<numeros.length; j++){
+            soma = soma + numeros[j][i];
+        }
+        System.out.println(soma);
+    }
 }
