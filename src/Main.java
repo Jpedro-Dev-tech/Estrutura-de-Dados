@@ -34,7 +34,7 @@
     System.out.println(matriz[1][2]);
 }*/
 
-public static void main(String[] args) {
+/*public static void main(String[] args) {
     int[][] numeros = {
             {5, 10, 15},
             {20, 25, 30}
@@ -46,4 +46,24 @@ public static void main(String[] args) {
         }
     }
     System.out.println(soma);
+}*/
+//SOMA DE CADA LINHA DA MATRIZ
+/*public  static void main(String[] args) {
+    int[] [] numeros = {
+            {5, 10, 15},
+            {20, 25, 30}
+    };
+    for (int i=0; i < numeros.length; i++) {
+        int soma = 0;
+        for (int j=0; j < numeros[i].length; j++){
+            soma = soma + numeros[i][j];
+            //soma = soma + numeros[j][i];
+        }
+        System.out.println(soma);
+    }
+
+}*/
+
+public static void main(String[] args) {
+
 }
