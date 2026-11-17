@@ -77,15 +77,28 @@
         System.out.println("Resultado é: " + soma);
     }
 }*/
-
+/*
 public  static void main(String[] args) {
     int[][] numeros = {
             {5, 10, 15},
             {20, 25, 30}
     };
-    for (int i=0; i<numeros[0  ].length; i++) {
+    for (int i=0; i<numeros[0].length; i++) {
         int soma = 0;
         for (int j=0; j<numeros.length; j++){
+            soma = soma + numeros[j][i];
+        }
+        System.out.println(soma);
+    }
+}*/
+public static void main(String[] args) {
+    int [][] numeros = {
+            {10, 10, 15},
+            {15, 10, 50}
+    };
+    for (int i=0; i<numeros[0].length; i++) {
+        int soma = 0;
+        for (int j = 0; j < numeros.length; j++) {
             soma = soma + numeros[j][i];
         }
         System.out.println(soma);
